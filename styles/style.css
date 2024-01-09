@@ -33,8 +33,13 @@
     width: 200px;
     height: 300px;
     border-radius: 15px;
+    margin: 2em;
 }
 
 #bg-image1 {
     background-image: url('../assets/1.png');
+    height: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15px 15px 0 0;
 }
