@@ -7,3 +7,21 @@
 #container {
     display: flex;
 }
+
+#container-content {
+    margin-top: 15vh;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#container-content>h2 {
+    font: normal normal 900 43px/63px Heebo;
+    color: #020253;
+}
+
+#container-content>p {
+    font: normal normal normal 20px/29px Heebo;
+    color: #020253;
+}
