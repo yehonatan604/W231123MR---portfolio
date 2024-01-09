@@ -4,6 +4,14 @@
     box-sizing: border-box;
 }
 
+#header {
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    right: 0;
+    margin-bottom: 1em;
+}
+
 #container-header {
     background-color: rgb(23, 22, 22);
     color: azure;
@@ -28,14 +36,14 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    width: 50vw;
+    width: 60vw;
 }
 
 .card {
     box-shadow: 3px 3px 16px black;
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 250px;
     height: 300px;
     border-radius: 15px;
     margin: 2em;
