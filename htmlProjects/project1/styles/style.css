@@ -32,7 +32,7 @@
 .form-control {
     display: flex;
     flex-direction: column;
-    margin: 1em;
+    margin-bottom: 1em;
 }
 
 .form-control>input {
@@ -48,4 +48,23 @@
     height: 50px;
     background: #020253 0% 0% no-repeat padding-box;
     color: azure;
+}
+
+@media screen and (max-width:1300px) {
+    #container {
+        flex-direction: column;
+        width: fit-content;
+    }
+
+    #container-content {
+        width: 90vw;
+    }
+
+    #container-content>h2 {
+        font: normal normal 900 28px/41px Heebo;
+    }
+
+    .form-control>input {
+        width: 286px;
+    }
 }
